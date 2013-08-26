@@ -1,0 +1,1287 @@
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	margin:0;padding:0;
+}
+
+body {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    color:#333;
+    font-size: 26px;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti !important;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+fieldset,img{
+	border:0;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+a,a:hover {
+	text-decoration:none;
+}
+
+.fn-clear:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+.fn-clear {
+	zoom:1;
+}
+
+body .fn-hide {
+	display:none;
+}
+
+.fn-left,.fn-right {
+	display:inline;
+}
+
+.fn-left {
+	float:left;
+}
+
+.fn-right {
+	float:right;
+}
+
+.iphone-screen {
+	width:640px;
+	min-height: 960px;
+}
+
+.iphone-navigation-bar {
+	position: relative;
+	height: 90px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #000;
+	line-height: 90px;
+	text-align: center;
+	background-color: #3fa551;
+	border-bottom: 2px #25754d solid;
+}
+
+.iphone-navigation-bar-back {
+	position: absolute;
+	width: 99px;
+	height: 60px;
+	top: 0;
+	left: 0;
+	line-height: 60px;
+	background: url(back-2.png) no-repeat 0 0;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #000;
+	text-indent: 14px;
+	margin-left: 20px;
+	margin-top: 16px;
+}
+
+.iphone-navigation-bar-menu {
+	position: absolute;
+	width: 78px;
+	height: 60px;
+	top: 0;
+	left: 0;
+	line-height: 60px;
+	background: url(menu-2.png) no-repeat 0 0;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #000;
+	text-indent: 14px;
+	margin-left: 20px;
+	margin-top: 16px;
+}
+
+.iphone-navigation-bar-add {
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	top:0;
+	right:0;
+	background: url(add-2.png) no-repeat 0 0;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px #000;
+	text-indent: 4px;
+	margin-right: 20px;
+	margin-top: 16px;
+}
+
+.iphone-navigation-bar-search {
+	position: absolute;
+	top:16px;
+	left:120px;
+	height: 35px;
+	width: 440px;
+	font-size: 26px;
+	padding:10px 0 10px 50px;
+	border:2px #25754d solid;
+	border-radius: 10px;
+	outline: none;
+	background: url(search-icon.png) no-repeat 15px 13px;
+	background-color: #fff;
+}
+
+.iphone-navigation-bar-search-cancel {
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	top:26px;
+	left: 565px;
+	background: url(search-cancel.png) no-repeat 0 0;
+}
+
+.iphone-navigation-bar-search-frd {
+	position: absolute;
+	top:16px;
+	left:141px;
+	height: 32px;
+	width: 425px;
+	font-size: 32px;
+	padding:10px 0 10px 50px;
+	border:2px #25754d solid;
+	border-radius: 10px;
+	outline: none;
+	background: url(search-icon.png) no-repeat 15px 12px;
+	background-color: #fff;
+}
+
+.iphone-navigation-bar-search-cancel-frd {
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	top:25px;
+	left: 571px;
+	background: url(search-cancel.png) no-repeat 0 0;
+}
+
+.iphone-error {
+	padding-top: 100px;
+	text-align: center;
+	color: #666;
+}
+
+.iphone-error-emoji {
+	font-size: 100px;
+	line-height: 100px;
+	margin-bottom: 50px;
+}
+
+.iphone-error-message {
+	text-indent: 40px;
+}
+
+.iphone-head-people {
+	height: 142px;
+	padding:30px 20px;
+	background-color: #f7f7f7;
+}
+
+.iphone-head-app {
+	height: 132px;
+	padding:30px 20px;
+	background-color: #f7f7f7;
+}
+
+.iphone-tab-bar-people {
+	height: 80px;
+	padding:12px 0;
+	background-color: #f0f0f0;
+}
+
+.iphone-tab-bar-people ul li {
+	float:left;
+	width:128px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	
+}
+
+.tab-bar-num {
+	font-size: 26px;
+	color: #999;
+}
+
+.iphone-tab-bar-people ul li a.active span.tab-bar-num {
+	color: #339966;
+}
+
+.iphone-tab-bar-people ul li a {
+	color:#333;
+	
+}
+
+.iphone-tab-bar-people ul li a.active {
+	color:#339966;
+}
+
+.iphone-tab-bar-filter {
+	margin-bottom: 0px;
+	border-bottom: 2px #f0f0f0 solid;
+	font-size: 28px;
+}
+
+.iphone-tab-bar-friends {
+	margin-bottom: 0px;
+	border-bottom: 0px #f0f0f0 solid;
+	font-size: 28px;
+}
+
+.iphone-tab-bar-filter ul li {
+	float: left;
+	width: 212px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+.picker-arrow ul li {
+	background-image: url(ar-d.png);
+	background-repeat: no-repeat;
+	background-position: 240px center;
+}
+
+.iphone-tab-bar-filter ul li a,.iphone-tab-bar-friends ul li a {
+	color: #666;
+}
+
+.iphone-tab-bar-filter ul li a.active,.iphone-tab-bar-friends ul li a.active {
+	color: #339966;
+}
+
+.iphone-tab-bar-friends ul li {
+	float: left;
+	width: 319px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+.tab-bar-separator {
+	border-right:2px #f0f0f0 solid;
+}
+
+.iphone-head-people-icon {
+	float: left;
+}
+
+.iphone-head-app-icon {
+	float: left;
+}
+
+.iphone-head-people-info {
+	float:left;
+	margin-left: 20px;
+}
+
+.iphone-head-app-info {
+	float:left;
+	margin-left: 20px;
+}
+
+.iphone-head-people-info-name {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.iphone-head-app-info-name {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.iphone-head-app-price {
+	float: right;
+	width: 116px;
+	text-align: center;
+}
+
+.app-info-price-now {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.app-info-price-tip {
+	float: left;
+	width: 116px;
+}
+
+.iphone-price-change {
+	width: 530px;
+	background-color: #f7f7f7;
+}
+
+.app-detail-price{
+	width: 530px;
+}
+
+.app-detail-price-summary {
+	float: left;
+	margin-top: 30px;
+}
+
+.app-detail-price-summary li {
+	float: left;
+	width:225px;
+	padding:0 0 20px 20px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.app-detail-price li {
+	padding: 20px;
+	border-bottom: 2px #f0f0f0 solid;
+}
+
+.app-detail-price-time {
+	float: left;
+	width: 160px;
+}
+
+.app-detail-price-attr {
+	float: left;
+	width: 208px;
+}
+
+.app-detail-price-tip {
+	float: left;
+	color: #fff;
+	width: 114px;
+	text-align: center;
+}
+
+.bg-tip1 {
+	background-color: #fa5757;
+}
+
+.iphone-head-people-info-say {
+	position: relative;
+	line-height: 26px;
+	margin-bottom: 20px;
+	padding:0 25px 0 25px;
+}
+
+.iphone-head-people-info-dev{
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	color: #666;
+}
+
+.iphone-table-item-box-say {
+	position: relative;
+	line-height: 26px;
+	color: #333;
+	padding:0 25px 0 25px;
+}
+
+.iphone-table-item-review-say {
+	position: relative;
+	float: left;
+	line-height: 26px;
+	color: #333;
+	padding:0 25px 0 25px;
+	margin-top: 20px;
+}
+
+.iphone-table-item-box-message {
+	color:#333;
+	margin-bottom: 20px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.iphone-table-item-box-message-b {
+	color:#333;
+	margin-bottom: 10px;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.iphone-table-item-comment {
+	position: relative;
+	float: left;
+	font-size: 26px;
+	line-height: 36px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	word-break: break-all;
+}
+
+
+.quote-l {
+	position: absolute;
+	left:0;
+	top:5px;
+	font-size: 48px;
+	color:#ccc;
+}
+
+.quote-r{
+	position: absolute;
+	right:0;
+	top:5px;
+	font-size: 48px;
+	color:#ccc;
+}
+
+.quote-r2 {
+	margin-left:-10px;
+	font-size: 48px;
+	color:#ccc;
+}
+
+.iphone-head-people-info-tag {
+	line-height: 26px;
+	color:#999;
+}
+
+.iphone-table-item,.iphone-table-app-detail {
+	padding:30px 20px;
+	border-top: 2px #f0f0f0 solid;
+}
+
+.iphone-table-app-attr {
+	padding: 30px 20px;
+}
+
+.iphone-table-item-content {
+	float: right;
+	width: 480px;
+}
+
+.iphone-table-item-contentb {
+	float: right;
+	width: 510px;
+}
+
+.people-icon-70 {
+	float: left;
+	width:70px;
+	height:70px;
+}
+
+.box-icon-100 {
+	float: left;
+	width:100px;
+	height:100px;
+	margin-right: 20px;
+}
+
+.iphone-table-item-title {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+.iphone-table-item-box {
+	background-color: #f7f7f7;
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+.iphone-table-item-box-title {
+	margin-bottom: 20px;
+	font-size: 30px;
+	line-height: 30px;
+	color: #333;
+}
+
+.iphone-table-item-box-tag {
+	float: left;
+	margin-left: 10px;
+	font-size: 30px;
+	line-height: 30px;
+	color: #bbb;
+}
+
+.iphone-table-info {
+	margin-bottom: 20px;
+}
+
+.iphone-table-item-box-info {
+	float: left;
+	font-size: 26px;
+	line-height: 24px;
+	color: #999;
+}
+
+.iphone-table-item-box-info-r {
+	float: right;
+}
+
+.app-price {
+	line-height: 30px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+
+
+.app-price-old {
+	position: relative;
+	font-size: 24px;
+	color:#999;
+	margin-right: 10px;
+	display: none;
+}
+
+.app-info-price-old {
+	float: left;
+	width: 116px;
+	text-align: center;
+	text-decoration: line-through;
+	color: #fa5757;
+}
+
+.app-info-price-old-in {
+	position: relative;
+	font-size: 24px;
+	line-height: 24px;
+	color:#666;
+	margin-bottom: 20px;
+}
+
+.app-price-now {
+	font-size: 30px;
+}
+
+.del {
+	position: absolute;
+	top:12px;
+	left:0px;
+	width:100%;
+	height: 2px;
+	background:url(del.png) no-repeat 0 0;
+}
+
+.name-bold {
+	font-weight: bold;
+	color: #333;
+}
+
+.app-free {
+	font-size: 24px;
+	color:#666;
+}
+
+.app-tip {
+	background-color: #3fa551;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	padding:7px 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.app-tip-drop {
+	background-color: #3399cc;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	padding:7px 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.app-tip-up {
+	background-color: #ff6666;
+	color: #fff;
+	font-size: 24px;
+	line-height: 24px;
+	padding:7px 10px;
+	text-align: center;
+	border-radius: 5px;
+	min-width: 96px;
+}
+
+.iphone-table-item-state {
+	color:#999;
+	margin-top: 20px;
+	
+}
+
+.iphone-table-item-state-time {
+	line-height: 77px;
+	
+}
+
+.iphone-table-item-state-time-reply {
+	line-height: 24px;
+	
+}
+
+.iphone-table-button {
+	float: left;
+	color:#666;
+	padding:20px;
+	background-color: #f7f7f7;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+.iphone-table-reply {
+	background-color: #fff;
+}
+
+.iphone-table-reply-state {
+	padding:20px;
+	color: #666;
+	line-height: 46px;
+	height: 46px;
+	border-bottom: 2px #f0f0f0 solid;
+}
+
+.iphone-table-reply-state-info {
+	margin-right: 20px;
+}
+
+.iphone-table-reply-like {
+	float: right;
+	width:100px;
+	text-align: center;
+	background-color: #f0f0f0;
+	color: #666;
+}
+
+.iphone-table-reply-item {
+	padding:20px;
+	border-bottom: 2px #f0f0f0 solid;
+}
+
+.iphone-table-reply-item-content{
+	float:right;
+	width:510px;
+}
+
+.iphone-table-reply-item-title {
+	line-height: 30px;
+	margin-bottom: 20px;
+	color:#999;
+}
+
+.iphone-table-reply-item-name {
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+}
+
+.attr-label {
+	float: left;
+	width:130px;
+	line-height: 40px;
+}
+
+.attr-info {
+	float: left;
+	width:360px;
+	line-height: 40px;
+	display: block;
+}
+
+.iphone-app-detail {
+	position: relative; 
+}
+
+.detail-back {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 60px;
+	height: 60px;
+	background: url(detail-back.png) no-repeat 0 0;
+	z-index: 1px;
+}
+
+.detail-share {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	background: url(detail-share.png) no-repeat 0 0;
+	z-index: 1px;
+}
+
+.iphone-app-detail-screenshot {
+	display: block;
+}
+
+.iphone-app-detail-icon {
+	position: absolute;
+	top:505px;
+	left: 20px;
+	z-index: 1;
+}
+
+.iphone-app-detail-title {
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	width: 640px;
+	height: 130px;
+	top: 485px;
+	color: #fff;
+}
+
+.iphone-app-detail-title-click {
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+	width: 640px;
+	height: 130px;
+	top: 485px;
+	color: #fff;
+}
+
+.iphone-app-detail-price {
+	background-color: #f7f7f7;
+	height: 40px;
+	padding: 20px 0;
+}
+
+.app-detail-title {
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.iphone-app-detail-title-in,.iphone-app-detail-price-in {
+	margin-left: 225px;
+}
+
+.iphone-app-detail-price-text {
+	font-size: 40px;
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+
+.app-detail-yen {
+	font-size: 30px;
+}
+
+.iphone-app-detail-price-more {
+	color: #666;
+	float: right;
+	width: 130px;
+	background: url(more.png) no-repeat 115px 6px;
+	margin-right: 20px;
+}
+
+.iphone-app-detail-button {
+	padding:30px 0px 30px 20px;
+}
+
+.button-wishlist {
+	background: url(btn-wish.png) no-repeat 18px center;
+}
+
+.button-recommend {
+	background: url(btn-like.png) no-repeat 18px center;
+}
+
+.button-itunes {
+	background: url(btn-itunes.png) no-repeat 18px center;
+	padding-left: 70px;
+}
+
+.button-wishlist,.button-recommend,.button-itunes {
+	background-color: #f7f7f7;
+	color: #333;
+	display: block;
+	margin-right: 20px;
+	padding: 10px 15px 10px 55px;
+}
+
+.button-itunes {
+	padding-left: 60px;
+}
+
+.iphone-app-detail-talk {
+	font-size: 30px;
+	color: #666;
+	line-height: 70px;
+	text-indent: 20px;
+	background-color: #fff;
+	border-top: 2px #f0f0f0 solid;
+}
+
+.app-detail-title-more {
+	position: absolute;
+	top:50px;
+	right: 20px;
+}
+
+.iphone-app-detail-talk-submit {
+	position: relative;
+	height:92px;
+	background-color: #EDF4ED;
+	border-top: 2px #dcdcdc solid;
+}
+
+.iphone-app-detail-talk-input {
+	position: absolute;
+	top:16px;
+	left:20px;
+	height: 32px;
+	width: 430px;
+	font-size: 26px;
+	padding:10px 0 10px 20px;
+	border: 2px #dcdcdc solid;
+	border-radius: 5px;
+	outline: none;
+	background-color: #fff;
+	-webkit-appearance:none;
+}
+
+.iphone-app-detail-talk-send {
+	position: absolute;
+	top:16px;
+	right:20px;
+	line-height: 32px;
+	padding:10px 30px;
+	font-size: 26px;
+	color: #fff;
+	background-color: #1eb657;
+	border: 2px #1eb657 solid;
+	border-radius: 5px;
+}
+
+.iphone-settings-wrapper {
+	background-color: #f7f7f7;
+	padding:30px 0;
+	position: relative;
+	min-height: 881px;
+}
+
+.iphone-settings {
+	background-color: #fff;
+	border:2px #ddd solid;
+	border-radius: 20px;
+	line-height: 87px;
+	font-size: 34px;
+	text-indent: 25px;
+	margin:0px 20px 40px 20px;
+}
+
+.iphone-settings ul li {
+	position: relative;
+}
+
+.iphone-settings ul li.arrow {
+	background: url(settings-arrow.png) no-repeat 560px center;
+}
+
+.iphone-settings ul li a {
+	color: #333;
+	float: left;
+	width: 596px;
+	height: 87px;
+	position: relative;
+}
+
+.iphone-settings ul li span.version {
+	float: right;
+	margin-right: 20px;
+}
+
+.iphone-settings ul li.border-bottom {
+	border-bottom: 2px #ddd solid;
+}
+
+.copy-rights {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 590px;
+	color: #666;
+	text-align: center;
+}
+
+.settings-intro {
+	padding:0 20px 40px 20px;
+	font-size: 26px;
+	word-break: break-all;
+}
+
+.onoff {
+	position: absolute;
+	right: 20px;
+	top:0px;
+	top: 16px;
+}
+
+.number {
+	position: absolute;
+	right: 20px;
+	top:0px;
+	top: 16px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.settings-icon {
+	margin-top: 10px;
+}
+
+.iphone-settings-content {
+	position: absolute;
+	left: 170px;
+	text-indent: 0;
+}
+
+.iphone-settings-contentb {
+	position: absolute;
+	left: 170px;
+	text-indent: 0;
+	color: #999;
+}
+
+.iphone-settings-contentc {
+	position: absolute;
+	left: 220px;
+	width: 320px;
+	color: #999;
+	text-indent: 0;
+	text-align: right;
+}
+
+.iphone-settings-contentd {
+	position: absolute;
+	left: 250px;
+	width: 320px;
+	color: #999;
+	text-indent: 0;
+	text-align: right;
+}
+
+.iphone-settings-support-input {
+	float: left;
+	width:550px;
+	height: 250px;
+	background-color: #fff;
+	border:2px #ddd solid;
+	border-radius: 20px;
+	line-height: 26px;
+	font-size: 26px;
+	padding:20px 20px 20px 20px;
+	margin:0px 20px 40px 20px;
+	outline: none;
+}
+
+.iphone-login {
+	background-color: #3FA551;
+	width: 640px;
+	height: 960px;
+}
+
+.login-logo {
+	height: 270px;
+	margin-bottom: 78px;
+	background: url(logo-big.png) no-repeat center bottom;
+}
+
+.login-logo-launch {
+	height: 400px;
+	margin-bottom: 78px;
+	background: url(logo-big.png) no-repeat center bottom;
+}
+
+.login-inputa {
+	height: 196px;
+}
+
+.login-input {
+	height: 272px;
+}
+
+.login-input input.border-bottom {
+	border-bottom: 2px #f0f0f0 solid;
+}
+
+.login-inputa input.border-bottom {
+	border-bottom: 2px #f0f0f0 solid;
+}
+
+.login-input-wrapper {
+	height: 172px;
+	margin:0 42px;
+	background-color: #fff;
+	border:0px #ccc solid;
+	border-radius: 10px;
+	box-shadow: 0px 2px 0px #666; 
+}
+
+.login-input-wrapperb {
+	height: 252px;
+	margin:0 42px;
+	background-color: #fff;
+	border:0px #299d4e solid;
+	border-radius: 10px;
+	box-shadow: 0px 2px 0px #666; 
+}
+
+.login-input-item {
+	width: 556px;
+	border:0;
+	background-color: transparent;
+	height: 84px;
+	font-size: 30px;
+	text-indent: 20px;
+	outline: none;
+}
+
+.login-input-wrapper input::-webkit-input-placeholder { color:#ccc; }
+
+.login-input-wrapperb input::-webkit-input-placeholder { color:#ccc; }
+
+.login-button {
+	height: 85px;
+	margin:0 42px;
+	margin-bottom: 100px;
+}
+
+.login-button-r {
+	height: 85px;
+	margin:0 40px;
+	margin-bottom: 30px;
+}
+
+.login-button-submit {
+	display: block;
+	width: 556px;
+	height: 82px;
+	line-height: 82px;
+	font-size: 30px;
+	text-shadow: 0px 1px 0px #fff; 
+	text-align: center;
+	color: #999;
+	background-color: #f0f0f0;
+	border:0;
+	border-radius: 10px;
+	box-shadow: 0px 2px 0px #666; 
+}
+
+.reg-button {
+	display: block;
+	margin:0 auto;
+	margin-bottom: 30px;
+	width: 288px;
+	height: 70px;
+	line-height: 68px;
+	font-size: 30px;
+	text-shadow: 0px 1px 0px #000; 
+	text-align: center;
+	color: #fff;
+	background:url(reg-btn-2.png) no-repeat 0 0;
+	border:0;
+}
+
+.login-copyright {
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-copyright-launch {
+	text-align: center;
+	margin-top: 350px;
+	color: #fff;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+	padding:0 20px;
+}
+
+.about-title-s {
+	font-weight: bold;
+	margin:20px 0;
+}
+
+.iphone-home {
+	width: 530px;
+	min-height: 960px;
+	background-color: #404040;
+}
+
+.user-icon {
+	padding:10px 20px;
+	font-size: 36px;
+	color: #fff;
+	line-height: 80px;
+	border-bottom: 2px #232323 solid;
+	text-shadow: 0px 1px 0px #000;
+}
+
+.user-icon a{
+	color: #fff;
+}
+
+.user-icon-img {
+	display: block;
+	border:4px #313131 solid;
+	margin-right: 20px;
+}
+
+.user-section {
+	background-color: #323232;
+	color: #fff;
+	font-size: 26px;
+	line-height: 48px;
+	padding:0 0 0 40px;
+	border-bottom: 2px #232323 solid;
+}
+
+.user-item {
+	color: #fff;
+	display: block;
+	position: relative;
+	font-size: 30px;
+	line-height: 80px;
+	text-shadow: 0px 1px 0px #000;
+	text-indent: 120px;
+	border-bottom: 2px #232323 solid;
+}
+
+.home-icon1 {
+	background: url(1.png) no-repeat 40px center;
+}
+
+.home-icon2 {
+	background: url(2.png) no-repeat 40px center;
+}
+
+.home-icon3 {
+	background: url(3.png) no-repeat 40px center;
+}
+
+.home-icon4 {
+	background: url(4.png) no-repeat 40px center;
+}
+
+.home-icon5 {
+	background: url(5.png) no-repeat 40px center;
+}
+
+.home-icon6 {
+	background: url(6.png) no-repeat 40px center;
+}
+
+.home-icon7 {
+	background: url(7.png) no-repeat 40px center;
+}
+
+.home-icon8 {
+	background: url(8.png) no-repeat 40px center;
+}
+
+.user-number {
+	position: absolute;
+	top: 15px;
+	right: 60px;
+}
+
+.click323232 {
+	background-color: #323232;
+}
+
+.clickf0f0f0 {
+	background-color: #f0f0f0;
+}
+
+.iphone-tab-bar-filter ul li.clickf0f0f0 {
+	background-color: #f0f0f0;
+}
+
+.iphone-tab-bar-friends ul li.clickf0f0f0 {
+	background-color: #f0f0f0;
+}
+
+.iphone-write-recommend {
+	width: 530px;
+	background-color: #F7F7F7;
+	min-height: 960px;
+}
+
+.iphone-write-recommend-button {
+	background-color: white;
+	border: 2px #DDD solid;
+	border-radius: 20px;
+	line-height: 87px;
+	font-size: 34px;
+	margin: 0px 20px 40px 20px;
+}
+
+.iphone-write-recommend-button ul li a {
+	color: #333;
+	float: left;
+	width: 486px;
+	height: 87px;
+}
+
+.iphone-write-recommend-input {
+	float: left;
+	width: 446px;
+	height: 250px;
+	background-color: white;
+	border: 2px #DDD solid;
+	border-radius: 20px;
+	line-height: 26px;
+	font-size: 26px;
+	padding: 20px 20px 20px 20px;
+	margin: 30px 20px 40px 20px;
+	outline: none;
+	resize: none;
+}
+
+.iphone-table-item-box-info-wrapper {
+	float: left;
+	padding:20px 20px 20px 25px;
+	background: url(dialog.png) no-repeat 0 0;
+}
+
+.iphone-table-item-box-info-wrapper2 {
+	float: left;
+	padding:20px 35px 20px 20px;
+	background: url(dialog2.png) no-repeat 0 0;
+}
+
+.iphone-tab-bar-filter-select {
+	background-color: #f0f0f0;
+	line-height: 60px;
+	text-indent: 20px;
+}
+
+.iphone-tab-bar-filter-select ul li.selected {
+	background-color: #ccc;
+}
